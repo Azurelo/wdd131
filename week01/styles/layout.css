@@ -5,9 +5,13 @@ body {
   }
   
   header{
+    padding-top: 10px;
     color: white;
     background: #2c2b2b;
     grid-column: 1 / 4;
+  }
+  h1{
+    padding: 10px;
   }
   main {
     background: rgb(173, 174, 172);
@@ -39,19 +43,16 @@ nav {
 	margin: 0 0 0rem;
   display: flex;
   padding: 0px;
-  
-}
-.modern a {
-	flex: 1 1 100%;
-}
-.navigation {
-	list-style: none;
+  list-style: none;
 	display: flex;
 	background-color: black;
 	align-items: center;
 }
+.modern a {
+	flex: 1 1 100%;
+}
 
-.navigation a {
+nav a {
 	display: block;
 	color: #eee;
 	padding: 0.75rem;
@@ -59,7 +60,7 @@ nav {
 	text-align: center;
 /* 	border: 1px dotted cyan; */
 }
-.navigation a:hover {
+nav a:hover {
 	font-weight: 700;
 	text-decoration: underline;
 
