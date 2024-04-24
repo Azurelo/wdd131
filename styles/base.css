@@ -25,6 +25,11 @@ main {
 	margin: 0 auto;
 }
 
+main{
+    width: 90%;
+    grid-template: 1fr 1fr / 1fr 1fr
+}
+
 h1 {
 	font-size: 2rem;
     padding-bottom: 20px;
