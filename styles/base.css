@@ -77,4 +77,12 @@ nav a:hover {
 .cyan{
     color: rgb(4, 196, 196);
   }
-  
+
+footer{
+    min-height: 50px;
+    color: white;
+    background-color: #36454f;
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+}
