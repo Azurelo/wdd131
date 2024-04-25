@@ -127,6 +127,8 @@ nav a:hover {
     }
     .resource ul{
         margin: 0px;
+        padding: 20px;
+        font-size: 44px;
     }
 }
 @media (max-width: 700px){
