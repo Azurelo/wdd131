@@ -4,11 +4,11 @@ const lastModification = document.getElementById("lastModified")
 let oLastModif = new Date(document.lastModified);
 
 currentYearSpan.textContent = currentYear;
+
 document.addEventListener("DOMContentLoaded", function() {
     const lastModifiedElement = document.getElementById("lastModified");
     const lastModifiedDate = new Date(document.lastModified);
     lastModifiedElement.textContent = "Last modified: " + formatDate(lastModifiedDate);
-    lastModifiedElement.classList.add("yellow");
 });
 
 function formatDate(date) {
