@@ -119,7 +119,38 @@ nav a:hover {
 		flex: 1 1 100%;
 	}
 }
+@media (max-width: 800px){
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+    .resource ul{
+        margin: 0px;
+    }
+}
+@media (max-width: 600px){
+    nav{
+        display:flex;
+        flex-direction: column;
 
+    }
+    img{
+        width: 100%;
+        max-width: 50%;
+        align-self: center;
+    }
+    .summary{
+        flex-direction: column;
+    }
+    .country{
+        display: flex;
+        flex-direction: column;
+    }
+    .flag-section{
+        display: flex;
+        flex-direction: column ;
+    }
+}
 .cyan{
     color: rgb(4, 196, 196);
   }
