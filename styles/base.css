@@ -179,3 +179,6 @@ footer{
     padding-top: 10px;
     font-size: larger;
 }
+.hide{
+    display: none;
+}
