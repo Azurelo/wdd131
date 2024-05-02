@@ -8,19 +8,31 @@ main{
     margin: auto;
 }
 #menu {
-	display: block;
+	display:flex;
+    justify-content: space-evenly;
 	font-size: 2rem;
 	font-weight:700;
 	text-decoration: none;
 	padding: .5rem .75rem;
-	background-color: #eee;
-	color: #000;
+	background-color: rgb(69, 26, 107);
+	color: white;
+    text-align: right;
 }
-
-#menu::before {
+h1{
+text-align: left;
+}
+h2{
+    text-align: center;
+}
+figure{
+    margin: auto;
+}
+figcaption{
+    text-align: center;
+}
+#menu::after {
 	content: "≡";
 }
-
 nav {
 	background-color: rgb(87, 68, 139);
 }
@@ -35,8 +47,8 @@ nav {
 }
 .navigation a {
 	display: block;
-	padding: 0.75rem;
-	text-align: left;
+	padding: .75rem;
+	text-align: center;
 	text-decoration: none;
 	color: black;
 	font-weight: 700;
@@ -53,6 +65,6 @@ nav {
 	display: block;
 }
 
-#menu.show::before {
+#menu.show::after {
 	content: "X";
 }
