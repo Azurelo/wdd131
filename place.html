@@ -17,7 +17,14 @@
         <h1>Arizona</h1>
     </header>
     <main>
-        <img class="small" src="images/tortoise.webp" alt="Photo of tortoise">
+        <img class="small" src="image-large.jpg"
+     srcset="images/tortoise.webp 600w,
+            images/tortoise.webp  900w,
+            images/tortoisebig.webp "
+     sizes="(max-width: 600px) 600px,
+            1200px"
+     alt="Hero Image">
+
         <section class="data">
             <h2>Data</h2>
             <div class="card">
