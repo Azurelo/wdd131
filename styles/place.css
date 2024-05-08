@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+header,
+main,
+footer {
+	margin: 0 auto;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+section{
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: #36454f;
+    font-family: "Jaro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+    border-bottom: 8px solid rgb(233, 196, 103);
+}
+.small{
+    width: 100%;
+    border-bottom:  4px solid rgb(233, 196, 103); ;
+}
+.weather h2::after{
+    content: "☀️";
+}
+
+.card {
+    padding: 10px;
+    font-size: large;
+}
+  
+h2{
+    margin-top: 10px;
+    font-family: "Jaro", sans-serif;
+    font-size: 2rem;
+}
+
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #36454f;
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+}

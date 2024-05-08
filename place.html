@@ -7,30 +7,38 @@
         <meta name="description" content="Hometown Page"/>
         <title>WDD 131 - Homepage Page</title>
         <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
     </head>
 <body>
     <header>
         <h1>Arizona</h1>
     </header>
     <main>
-        <img src="small.png" alt="Photo of tortoise">
+        <img class="small" src="images/tortoise.webp" alt="Photo of tortoise">
         <section class="data">
             <h2>Data</h2>
-            <div><strong>Area:</strong>113,998 sq mi</div>
-            <div><strong>Population:</strong>7,359,000</div>
-            <div><strong>Capital:</strong>Phoenix</div>
-            <div><strong>Languages:</strong>Engligh and Spanish</div>
-            <div><strong>Currency:</strong>US Dollar</div>
-            <div><strong>Time Zone:</strong> UTC-7</div>
-            <div><strong>Calling Code:</strong> 602</div>
-            <div><strong>Internet TLD:</strong> .us</div>
+            <div class="card">
+                <div><strong>Area:</strong> 113,998 sq mi</div>
+                <div><strong>Population:</strong> 7,359,000</div>
+                <div><strong>Capital:</strong> Phoenix</div>
+                <div><strong>Languages:</strong> Engligh and Spanish</div>
+                <div><strong>Currency:</strong> US Dollar</div>
+                <div><strong>Time Zone:</strong> UTC-7</div>
+                <div><strong>Calling Code:</strong> 602</div>
+                <div><strong>Internet TLD:</strong> .us</div>
+            </div>
         </section>
         <section class="weather">
-            <h2>Weather</h2>
-            <div><strong>Conditions:</strong> Cloudy</div>
-            <div><strong>Temperature:</strong> 70&deg;F</div>
-              <div><strong>Wind:</strong> 20 mph</div>
-              <div><strong>Windchill:</strong> <span id="windchill"> N/A</span></div>
+            <h2 class="card-heading">Weather</h2>
+            <div class="card">
+                <div><strong>Conditions:</strong> Cloudy</div>
+                <div><strong>Temperature:</strong> 70&deg;F</div>
+                <div><strong>Wind:</strong> 20 mph</div>
+                <div><strong>Windchill:</strong> <span id="windchill"> N/A</span></div>
+            </div>
         </section>
     </main>
     <footer>
