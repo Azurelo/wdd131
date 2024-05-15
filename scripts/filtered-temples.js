@@ -113,7 +113,7 @@ const temples = [
       },
   ];
   function createTempleCard(temple) {
-    const templeCard = document.createElement('div');
+    const templeCard = document.createElement('figure');
     templeCard.classList.add('temple-card');
     
     const image = document.createElement('img');
@@ -124,13 +124,13 @@ const temples = [
     const name = document.createElement('h2');
     name.textContent = temple.templeName;
     
-    const location = document.createElement('p');
+    const location = document.createElement('figcaption');
     location.textContent = temple.location;
     
-    const dedicated = document.createElement('p');
+    const dedicated = document.createElement('figcaption');
     dedicated.textContent = "Dedicated: " + temple.dedicated;
     
-    const area = document.createElement('p');
+    const area = document.createElement('figcaption');
     area.textContent = "Area: " + temple.area + " square feet";
     
     templeCard.appendChild(image);
