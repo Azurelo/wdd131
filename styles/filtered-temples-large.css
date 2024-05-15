@@ -1,0 +1,45 @@
+@media only screen and (min-width: 40rem) {
+	.container{
+		display: grid;
+	grid-template-columns: repeat(2, minmax(45%, 1fr));	
+	}
+}
+@media only screen and (min-width: 70rem) {
+	nav{
+		display: flex;
+		justify-content: space-between;
+		height: 71px;
+	}
+	.label{
+		display: block;
+		margin-left: 15px;
+		color: white;
+		font-size: 3rem;
+		font-weight: 700;
+		width: 60%;
+		margin-top: 8px;
+	}
+	.navigation {
+		display: flex;
+		width: 30%;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 0px;
+	}
+	.navigation li {
+		display: block; 
+	}
+	.navigation a {
+		text-align:right;
+		font-size: 1.5rem;
+	}
+	#menu {
+		display: none;
+	}
+	#menu h1{
+		display:block;
+	}
+	.container{
+		display: grid;
+		grid-template-columns: repeat(3, minmax(30%, 1fr));	}
+}

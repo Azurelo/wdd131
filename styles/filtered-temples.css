@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+#menu {
+	display:flex;
+    justify-content: space-between;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #36454f;
+	color: white;
+    text-align: right;
+}
+h1{
+text-align: left;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+figure{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+figcaption{
+    margin-top: 5px;
+    text-align: center;
+}
+figure img{
+    max-width: 80%;
+    height: auto;
+}
+#menu::after {
+	content: "≡";
+    font-size: 3rem;
+}
+nav {
+	background-color: #36454f;
+
+}
+.navigation {
+	list-style: none;
+	margin: 0 auto;
+	max-width: 760px;
+}
+
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: .75rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1rem, 2vmin, 1.5rem);
+}
+
+.navigation a:hover, navigation a:active {
+	color: black;
+	background-color: rgb(220, 219, 190);
+}
+
+.show li {
+	display: block;
+}
+
+#menu.show::after {
+	content: "X";
+}
+
+footer{
+    padding: 20px;
+    color: white;
+    background-color: #36454f;
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+}
+.active{
+    font-weight: bold;
+}
+.label{
+    display: none;
+}
