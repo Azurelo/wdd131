@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     navigationLinks.forEach(function(link) {
         link.addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent the default link behavior
+            event.preventDefault(); 
             
             navigationLinks.forEach(function(link) {
                 link.classList.remove('active');
@@ -22,7 +22,6 @@ document.addEventListener("DOMContentLoaded", function() {
             const mainTitle = document.querySelector('main h2');
             mainTitle.textContent = link.getAttribute('title');
 
-            // Call filterAndDisplayTemples function with the appropriate filter based on the clicked link
             const filter = link.getAttribute('title');
             filterAndDisplayTemples(filter);
         });
@@ -165,5 +164,5 @@ const temples = [
     });
   }
   
-  // Initial display
+
   filterAndDisplayTemples('Home');
