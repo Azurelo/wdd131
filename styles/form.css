@@ -69,3 +69,6 @@ footer{
 .stars{
     display: flex;
 }
+.requireInfo{
+    text-align: center;
+}
