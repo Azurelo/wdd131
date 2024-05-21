@@ -13,68 +13,65 @@
     <script src="scripts/form.js"></script>
 </head>
 <body>
-    
-
     <header>
         <h1>Product Review Form</h1>
     </header>
-
     <main>
-    <form id="reviewForm" action="review.html" method="get">
+        <form id="reviewForm" action="review.html" method="get">
         <!-- Product Name -->
-        <div>
-            <label for="productName">Product Name:</label>
-            <select id="productName" name="productName" required>
-                <option value="" disabled selected>Select a Product ...</option>
-            </select>
-        </div>
+            <div>
+                <label for="productName">Product Name:</label>
+                <select id="productName" name="productName" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </div>
         
         <!-- Overall Rating -->
-        <div>
-            <label>Overall Rating:</label>
-            <div id="rating">
-                <input type="radio" id="star5" name="rating" value="5" required><label for="star5">&#9733;</label>
-                <input type="radio" id="star4" name="rating" value="4" required><label for="star4">&#9733;&#9733;</label>
-                <input type="radio" id="star3" name="rating" value="3" required><label for="star3">&#9733;&#9733;&#9733;</label>
-                <input type="radio" id="star2" name="rating" value="2" required><label for="star2">&#9733;&#9733;&#9733;&#9733;</label>
-                <input type="radio" id="star1" name="rating" value="1" required><label for="star1">&#9733;&#9733;&#9733;&#9733;&#9733;</label>
+            <div>
+                <label>Overall Rating:</label>
+                <div id="rating">
+                    <input type="radio" id="star5" name="rating" value="5" required><label for="star5">&#9733;</label>
+                    <input type="radio" id="star4" name="rating" value="4" required><label for="star4">&#9733;&#9733;</label>
+                    <input type="radio" id="star3" name="rating" value="3" required><label for="star3">&#9733;&#9733;&#9733;</label>
+                    <input type="radio" id="star2" name="rating" value="2" required><label for="star2">&#9733;&#9733;&#9733;&#9733;</label>
+                    <input type="radio" id="star1" name="rating" value="1" required><label for="star1">&#9733;&#9733;&#9733;&#9733;&#9733;</label>
+                </div>
             </div>
-        </div>
         
         <!-- Date of Installation -->
-        <div>
-            <label for="installDate">Date of Installation:</label>
-            <input type="date" id="installDate" name="installDate" required>
-        </div>
+            <div>
+                <label for="installDate">Date of Installation:</label>
+                <input type="date" id="installDate" name="installDate" required>
+            </div>
         
         <!-- Useful Features -->
-        <div>
-            <label>Useful Features:</label>
             <div>
-                <input type="checkbox" id="feature1" name="features" value="Feature 1"><label for="feature1">Durability</label>
-                <input type="checkbox" id="feature2" name="features" value="Feature 2"><label for="feature2">Performance</label>
-                <input type="checkbox" id="feature3" name="features" value="Feature 3"><label for="feature3">Design</label>
+                <label>Useful Features:</label>
+             <div>
+                    <input type="checkbox" id="feature1" name="features" value="Feature 1"><label for="feature1">Durability</label>
+                    <input type="checkbox" id="feature2" name="features" value="Feature 2"><label for="feature2">Performance</label>
+                    <input type="checkbox" id="feature3" name="features" value="Feature 3"><label for="feature3">Design</label>
+                </div>
             </div>
-        </div>
         
         <!-- Written Review -->
-        <div>
-            <label for="review">Written Review:</label>
-            <textarea id="review" name="review"></textarea>
-        </div>
+            <div>
+                <label for="review">Written Review:</label>
+                <textarea id="review" name="review"></textarea>
+            </div>
         
         <!-- User Name -->
-        <div>
-            <label for="userName">User Name:</label>
-            <input type="text" id="userName" name="userName">
-        </div>
+            <div>
+                <label for="userName">User Name:</label>
+                <input type="text" id="userName" name="userName">
+            </div>
         
         <!-- Submit Button -->
-        <div>
-            <input type="submit" value="Submit Review">
-        </div>
-    </form>
-</main>
+            <div>
+                <input type="submit" value="Submit Review">
+            </div>
+        </form>
+    </main>
     <footer>
         <p>
           &#169;<span id="currentyear"></span>
