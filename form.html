@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Justus Schoppmann" />
+    <meta
+      name="description"
+      content="WDD 131 - Dynamic Web Fundamentals - Form"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Justus Schoppmann</title>
+</head>
+<header>
+    <h1>Product Review Form</h1>
+</header>
+
+<main>
+    <form id="reviewForm" action="review.html" method="get">
+        <!-- Product Name -->
+        <div>
+            <label for="productName">Product Name:</label>
+            <select id="productName" name="productName" required>
+                <option value="" disabled selected>Select a Product ...</option>
+            </select>
+        </div>
+        
+        <!-- Overall Rating -->
+        <div>
+            <label>Overall Rating:</label>
+            <div id="rating">
+                <input type="radio" id="star5" name="rating" value="5" required><label for="star5">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" required><label for="star4">&#9733;&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" required><label for="star3">&#9733;&#9733;&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" required><label for="star2">&#9733;&#9733;&#9733;&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" required><label for="star1">&#9733;&#9733;&#9733;&#9733;&#9733;</label>
+            </div>
+        </div>
+        
+        <!-- Date of Installation -->
+        <div>
+            <label for="installDate">Date of Installation:</label>
+            <input type="date" id="installDate" name="installDate" required>
+        </div>
+        
+        <!-- Useful Features -->
+        <div>
+            <label>Useful Features:</label>
+            <div>
+                <input type="checkbox" id="feature1" name="features" value="Feature 1"><label for="feature1">Feature 1</label>
+                <input type="checkbox" id="feature2" name="features" value="Feature 2"><label for="feature2">Feature 2</label>
+                <input type="checkbox" id="feature3" name="features" value="Feature 3"><label for="feature3">Feature 3</label>
+            </div>
+        </div>
+        
+        <!-- Written Review -->
+        <div>
+            <label for="review">Written Review:</label>
+            <textarea id="review" name="review"></textarea>
+        </div>
+        
+        <!-- User Name -->
+        <div>
+            <label for="userName">User Name:</label>
+            <input type="text" id="userName" name="userName">
+        </div>
+        
+        <!-- Submit Button -->
+        <div>
+            <input type="submit" value="Submit Review">
+        </div>
+    </form>
+</main>
+    <footer>
+        <p>
+          &#169;<span id="currentyear"></span>
+          <i class="material-icons">cloud</i> Justus Schoppmann
+          <i class="material-icons"> cloud</i> Arizona
+        </p>
+        <p id="lastModified"></p>
+      </footer>
+      <script defer src="scripts/getdates.js"></script>
+</body>
+</html>
