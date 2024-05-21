@@ -5,6 +5,9 @@
     --color-support: #042F39;
     --color-possible: #6f8b92;
 }
+header, h1, h2, h3, footer{
+    font-family: "Edu TAS Beginner", cursive, serif;
+}
 
 *{
     margin: 0px;
@@ -37,9 +40,16 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+p{
+    font-family:"Maven Pro", sans-serif;
+}
 .font{
     font-family: "Maven Pro", sans-serif;
 }
 .font2{
     font-family: "Edu TAS Beginner", cursive, serif;
+}
+img{
+    width: 50%;
 }
