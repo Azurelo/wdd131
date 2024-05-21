@@ -1,0 +1,45 @@
+:root{
+    --color-main: #0D98BA;
+    --color-extra: #075264;
+    --color-secondary: #0A758F;
+    --color-support: #042F39;
+    --color-possible: #6f8b92;
+}
+
+*{
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px ;
+    margin-bottom: 10px;
+}
+body{
+    margin: 0px auto;
+    text-align: center;
+    font-size: large;
+}
+header{
+    background-color: var(--color-main);
+}
+h1{
+    margin: 0px;
+}
+h3{
+    border-bottom: solid var(--color-support) 1px;
+}
+main{
+    background-color: var(--color-secondary)
+}
+
+footer {
+    display: flex;
+    height: 50px;
+    background-color: var(--color-extra);
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    font-family: "Maven Pro", sans-serif;
+}
+.font2{
+    font-family: "Edu TAS Beginner", cursive, serif;
+}
