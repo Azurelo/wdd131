@@ -11,7 +11,7 @@ body {
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #36454f;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -22,12 +22,12 @@ main {
 }
 
 form {
-    background: #fff;
+    background: #99a4ab;
     padding: 20px;
     margin: 20px auto;
     max-width: 600px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px #36454f;
 }
 
 form div {
@@ -45,7 +45,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 input[type="submit"] {
-    background: #333;
+    background: #36454f;
     color: #fff;
     padding: 10px 15px;
     border: none;
