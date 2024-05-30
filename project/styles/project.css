@@ -66,6 +66,17 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+.info{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 2rem;
+}
+.info p{
+    width: 40%;
+    margin: 0px;
+    margin-top: 10px;
+}
 
 .image-gallery {
     display: flex;
