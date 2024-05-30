@@ -99,7 +99,13 @@ nav ul li a {
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.container{
+    display:flex;
+    margin-top: 30px;
+}
+.home img{
+    max-width: 80%;
+}
 footer {
     background-color: var(--color-support);
     color: white;
@@ -118,7 +124,18 @@ footer > *{
 i{
     margin: auto;
 }
+figure{
+    width: 30%;
+}
+figure img{
+    width: 30%;
+}
+.categories{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
 
+}
 @media only screen and (max-width: 800px) {
 	.image-gallery{
 		flex-direction: column;	
@@ -135,5 +152,12 @@ i{
     }
     footer{
         position: relative;
+    }
+}
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        margin: auto 5px;
+        font-size: large;
+        font-family: "Maven Pro", sans-serif;
     }
 }
