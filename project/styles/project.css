@@ -76,7 +76,8 @@ nav ul li a {
     
 }
 .info p{
-    width: 40%;
+    text-align: center;
+    width: 80%;
     margin: 0px;
     margin-top: 10px;
     border-radius: 4px;
@@ -106,6 +107,13 @@ nav ul li a {
 .home img{
     max-width: 80%;
 }
+figure a{
+    color: black;
+}
+figure a:hover{
+    text-decoration: none;
+    transition: color 0.5s, font-size .5s;
+}
 footer {
     background-color: var(--color-support);
     color: white;
@@ -117,7 +125,10 @@ footer {
     justify-content: space-around;
     border-top: var(--color-extra) solid 3px; 
 }
-
+.welcome{
+    text-align: left;
+    font-size: 1.2rem;
+}
 footer > *{
     width: 30%;
 }
@@ -136,6 +147,11 @@ figure img{
     justify-content: center;
 
 }
+@media only screen and (max-width: 1000px) {
+    footer p{
+        margin: auto 0px;
+    }
+}
 @media only screen and (max-width: 800px) {
 	.image-gallery{
 		flex-direction: column;	
@@ -152,6 +168,7 @@ figure img{
     }
     footer{
         position: relative;
+        padding: 20px;
     }
 }
 @media only screen and (max-width: 600px) {
