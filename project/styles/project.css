@@ -112,7 +112,7 @@ figure a{
 }
 figure a:hover{
     text-decoration: none;
-    transition: color 0.5s, font-size .5s;
+    font-size: 1.5rem;
 }
 footer {
     background-color: var(--color-support);
@@ -136,10 +136,10 @@ i{
     margin: auto;
 }
 figure{
-    width: 30%;
+    width: 40%;
 }
 figure img{
-    width: 30%;
+    width: 40%;
 }
 .categories{
     display: flex;
